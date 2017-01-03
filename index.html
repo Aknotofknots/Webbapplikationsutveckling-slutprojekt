@@ -1,17 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Webbapplikationsutveckling - slutprojekt</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Webbapplikationsutveckling - slutprojekt">
+    <meta name="author" content="Christian Ahlsén">
+    
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <!--Eric meyer css reset-->
+    <link rel="stylesheet" type="text/css" href="css/EricmeyerCssReset.css">
+    
+    <!--user agent style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Webbapplikationsutveckling - slutprojekt</title>
 </head>
+
 <body>
-<h1> Slutprojekt</h1>
-
-
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">MuZilla</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Interviews</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Contests</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <section class="row">
+            <section class="col-xs-12 col-md-8 col-md-offset-2">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/acoustic.jpg" alt="acoustic guitar" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Acoustic guitar</h3>
+                                <p>PLaying acoustic guitar.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/guitar.jpg" alt="Guitar" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Guitar</h3>
+                                <p>Live</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img_flower.jpg" alt="Flower">
+                            <div class="carousel-caption">
+                                <h3>Flowers</h3>
+                                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img_flower2.jpg" alt="Flower">
+                            <div class="carousel-caption">
+                                <h3>Flowers</h3>
+                                <p>Beatiful flowers in Kolymbari, Crete.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+        </section>
+    </section>
+    <!--Code libraries-->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/effects.js"></script>
 </body>
-
-
-
-
 
 </html>
