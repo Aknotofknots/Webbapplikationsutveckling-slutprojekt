@@ -1,4 +1,4 @@
-# Webbapplikationsutveckling-slutprojekt
+# Webbapplication Development - Final Project
 ......................
 # By Christian Ahlsén
 ======================
@@ -8,8 +8,8 @@
 
 Goal: make use of all the knowledge gained during the course.
 
-The technologies used in this course are HTML5, CSS3, Javascript, jQuery and Bootstrap.
-I used Bootstrap and custom CSS to style the page, Javascript mostly for DOM-manipulation and jQuery for effects.
+The technologies used in this course are HTML5, CSS, Javascript, jQuery, Ajax and Bootstrap 3.
+I used Bootstrap and custom CSS to style the page, mostly vanilla Javascript for DOM-manipulation and jQuery for effects and Ajax calls.
 
 ****
 [Reach me on linkedin](https://www.linkedin.com/in/christian-fujimaki-ahlsen-77701766?trk=nav_responsive_tab_profile)
