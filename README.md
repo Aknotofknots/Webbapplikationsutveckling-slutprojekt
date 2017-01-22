@@ -24,14 +24,15 @@ The technologies used in this course are:
 
 5. Ajax 
 
-6. Bootstrap 3.
+6. Bootstrap
+
+7.JSON
 
 ****
 ## Purpose and funcionality of the finished product
 
 I've made a music news blog where you can search for random news of an artist and then - if you feel like it - listen to a preview
 sample of a song from an album by searching the Spotify API.
-
 I've spent a lot of time on the details to make it feel like a genuine product.
 ****
 [Reach me on linkedin](https://www.linkedin.com/in/christian-fujimaki-ahlsen-77701766?trk=nav_responsive_tab_profile)
