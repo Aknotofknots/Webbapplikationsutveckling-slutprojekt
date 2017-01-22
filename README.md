@@ -22,11 +22,11 @@ The technologies used in this course are:
 
 4. jQuery 
 
-5. Ajax 
+5. Ajax
 
-6. Bootstrap
+6. JSON
 
-7.JSON
+7. Bootstrap 3
 
 ****
 ## Purpose and funcionality of the finished product
