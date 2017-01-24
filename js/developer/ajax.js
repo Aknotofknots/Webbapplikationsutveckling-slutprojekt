@@ -131,14 +131,14 @@ $(document).ready(function () {
     let lastfmAPI = {
 
         showBiography: function (searchBarValue) {
-            return $.getJSON(`http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${searchBarValue}&autocorrect=1&api_key=6d50439832c2f70e2315b0fa85ea24f0&format=json`)
+            return $.getJSON(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${searchBarValue}&autocorrect=1&api_key=6d50439832c2f70e2315b0fa85ea24f0&format=json`)
                 .then(function (serverResponse) {
                     return serverResponse;
                 });
         },
 
         showPicture: function (searchBarValue) {
-            return $.getJSON(`http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${searchBarValue}&autocorrect&api_key=6d50439832c2f70e2315b0fa85ea24f0&format=json`)
+            return $.getJSON(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${searchBarValue}&autocorrect&api_key=6d50439832c2f70e2315b0fa85ea24f0&format=json`)
                 .then(function (serverResponse) {
                     return serverResponse;
                 })
