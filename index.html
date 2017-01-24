@@ -7,145 +7,244 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Webbapplikationsutveckling - slutprojekt">
     <meta name="author" content="Christian Ahlsén">
-    
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!--BOOTSTRAP 3-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    
-    <!--Eric meyer css reset-->
+
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Dorsa|Josefin+Slab:300" rel="stylesheet">
+
+    <!--ERIC MEYER CSS RESET-->
     <link rel="stylesheet" type="text/css" href="css/EricmeyerCssReset.css">
-    
-    <!--user agent style sheet-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--USER STYLE SHEET-->
+    <link rel="stylesheet" type="text/css" href="css/production/style.min.css">
     <title>Webbapplikationsutveckling - slutprojekt by Christian Ahlsén</title>
 </head>
 
 <body id="totop">
-    <nav class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">MuZilla</a>
-            </div>
-            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Interviews</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">Contests</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li><a href="#"><i class="fa fa-fw fa-twitter fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fa fa-fw fa-facebook fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fa fa-fw fa-linkedin fa-lg"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <section class="page-header center-block">
-        <h1>Latest Album Reviews</h1>
-    </section>
-    <section class="container">
-        <section class="row">
-            <section class="col-xs-12 col-md-6 col-md-offset-3">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="#" alt="Mastodon" class="img-responsive carouselImage image1">
-                            <div class="carousel-caption">
-                                <h3>The latest by Mastodon reviewed</h3>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="#" alt="Kent" class="img-responsive carouselImage image2">
-                            <div class="carousel-caption">
-                                <h3>The last album by Kent</h3>
-                                <p>find out how good it is</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="#" alt="Bon Iver" class="img-responsive carouselImage image3">
-                            <div class="carousel-caption">
-                                <h3>The new album by Bon Iver reviewed!!</h3>
-                                <p>The indie king is back</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="#" alt="Coldplay" class="img-responsive carouselImage image4">
-                            <div class="carousel-caption">
-                                <h3>Coldplays latest</h3>
-                                <p>Be prepared for some awesome sounds</p>
-                            </div>
+<!--NAVIGATION-->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#muZillaNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <h1 id="mainheader">MuZilla -
+                    <small>random music news on demand</small>
+                </h1>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="muZillaNavbar">
+            <ul class="nav navbar-nav mainnav">
+                <li><a href="#tonews">News</a></li>
+                <li><a href="#">Interviews</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+            <ul class="nav navbar-nav mainnav">
+                <li><a href="https://twitter.com/LifeOfBrackets" target="_blank"><i
+                        class="fa fa-fw fa-twitter fa-lg"></i></a></li>
+                <li><a href="https://www.facebook.com/christian.ahlsen.3" target="_blank"><i
+                        class="fa fa-fw fa-facebook fa-lg"></i></a></li>
+                <li><a href="https://www.linkedin.com/?trk=nav_logo" target="_blank"><i
+                        class="fa fa-fw fa-linkedin fa-lg"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="page-header center-block">
+    <h2>Latest Album Reviews</h2>
+</header>
+
+<!--IMAGE SLIDER FOR ALBUMS-->
+
+<section class="container">
+    <section class="row">
+        <section class="col-xs-10 col-sm-8 col-md-8 col-md-offset-2 col-sm-offset-2 col-xs-offset-1">
+            <div id="muZillaCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#muZillaCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#muZillaCarousel" data-slide-to="1"></li>
+                    <li data-target="#muZillaCarousel" data-slide-to="2"></li>
+                    <li data-target="#muZillaCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="#" alt="Mastodon" class="img-responsive image1">
+                        <div class="carousel-caption">
+                            <h2>The new album by Bon Iver reviewed!!</h2>
+                            <p>The indie king is back</p>
                         </div>
                     </div>
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div> <!--End Carousel-->
-            </section>
-        </section> <!--End row-->
-    </section> <!--End container-->
+                    <div class="item">
+                        <img src="#" alt="Kent" class="img-responsive image2">
+                        <div class="carousel-caption">
+                            <h2>The last album by Kent</h2>
+                            <p>find out how good it is</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="#" alt="Bon Iver" class="img-responsive image3">
+                        <div class="carousel-caption">
+                            <h2>The latest by Mastodon reviewed</h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="#" alt="Coldplay" class="img-responsive image4">
+                        <div class="carousel-caption">
+                            <h2>Coldplays latest</h2>
+                            <p>Be prepared for some awesome sounds</p>
+                        </div>
+                    </div>
+                </div>
 
-    <section class="container">
-        <section class="row">
-            <section class="col-xs-12 col-md-6 col-md-offset-3 ">
-                <ul id="newsfeed">
-                    <li><a><img src="#"></img></a></li>
+                <!--CAROUSEL CONTROLS-->
+                <a class="left carousel-control" href="#muZillaCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#muZillaCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> <!--End Carousel-->
+        </section>
+    </section> <!--End row-->
+</section> <!--End container-->
 
-                </ul>
-            </section>
+<header class="page-header center-block">
+    <h2>Artist News</h2>
+</header>
+
+<!--SEARCHBAR FOR NEWS POST-->
+<section class="container searchbar">
+    <section class="row">
+        <section class="col-xs-10 col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3 col-xs-offset-1">
+            <form>
+                <section class="form-group">
+                    <label for="searchbar">Random news for your favourite artist:</label>
+                    <input id="searchbar" type="text" class="form-control" placeholder="Artist Name">
+                    <a href="news">
+                    <input id="searchbar-button" class="btn btn-primary btn-lg" type="submit" value="submit">
+                    </a>
+                </section>
+            </form>
         </section>
     </section>
+</section>
 
-    <footer class="text-center">
-        <a href="#totop" data-toggle="tooltip" title="Back to the top">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
-        <br>
-        <br>
-        <span id="footerlogo">&copy;MuZilla</span>
-        <!--<ul class="sociallinks">-->
-            <!--<li>-->
-                <!--<a href="#"><i class="fa fa-twitter fa-lg fa-pull-right"></i></a>-->
-            <!--</li>-->
-            <!--<li>-->
-                <!--<a href="#"><i class="fa fa-facebook fa-lg fa-pull-right"></i></a>-->
-            <!--</li>-->
-            <!--<li>-->
-                <!--<a href="#"><i class="fa fa-linkedin fa-lg fa-pull-right"></i></a>-->
-            <!--</li>-->
-        <!--</ul>-->
-    </footer>
+<!--NEWS POST-->
+<main id="tonews">
+    <article>
+        <section class="container newspost-container">
+            <section class="row">
+                <section id="newscolumn"
+                         class="col-xs-10 col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-1">
+                    <section id="newscolumn-container">
+
+                    </section>
+                </section>
+            </section>
+        </section>
+    </article>
+</main>
+
+<!--LOADING ICON FOR NEWS POSTS-->
+<section id="loading-icon" class="container">
+    <section class="row">
+        <section class="col-xs-12 col-sm-12 col-md-12">
+            <figure>
+                <i class="fa fa-spinner fa-spin fa-3x" aria-hidden="true"></i>
+            </figure>
+        </section>
+    </section>
+</section>
 
 
-    <!--Code libraries-->
-    <!--[if lt IE 9]>
+<header id="listentospotify" class="page-header center-block">
+    <h2>Listen to the music</h2>
+</header>
+
+<!--SPOTIFY SEARCHBAR-->
+<section id="spotify-form-container" class="container">
+    <section class="row">
+        <section class="col-xs-10 col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3 col-xs-offset-1">
+            <span>Maybe your favourite artist has released a new album on <i class="fa fa-spotify"></i> ?</span>
+            <form id="search-form">
+                <section class="form-group">
+                    <input type="text" id="query" value="" class="form-control" placeholder="Type Artist Name Here"/>
+                    <input type="submit" id="search" class="btn btn-primary btn-lg" value="Search"/>
+                </section>
+            </form>
+        </section>
+    </section>
+</section>
+
+<!--CONTAINER FOR SPOTIFY SONGS-->
+<section class="container spotifyalbum-container">
+    <section id="results" class="row">
+
+    </section>
+</section>
+
+<!--LOADING ICON FOR SPOTIFY-->
+<section class="container" id="spotifyloading-icon">
+    <section class="row">
+        <section class="col-xs-12 col-sm-12 col-md-12">
+            <figure>
+                <i class="fa fa-spinner fa-spin fa-3x" aria-hidden="true"></i>
+            </figure>
+        </section>
+    </section>
+</section>
+
+<!--FOOTER-->
+<footer class="container-fluid text-center">
+    <a href="#totop" data-toggle="tooltip" title="Back to the top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <a id="footerlogo" href="index.html">
+        <h2>&copy;MuZilla -
+            <small>music news on demand</small>
+        </h2>
+    </a>
+    <span id="credits">Made by Christian Ahlsén as a final school project for the course Webbapplication development</span>
+</footer>
+
+
+<!--CODE LIBRARIES-->
+<!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/ajax.js"></script>
-    <script type="text/javascript" src="js/events.js"></script>
-</body>
+<!--BOOTSTRAP, JQUERY, HANDLEBARS-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+<script id="results-template" type="text/x-handlebars-template">
+    {{#each albums.items}}
+    <div class="col-xs-12 col-sm-3 col-md-3">
+        <img id="albumframe" src="{{images.0.url}}" data-album-id="{{id}}" class="img-responsive rotate">
+    </div>
+    {{/each}}
+</script>
+<!--AUTHOR JS SCRIPTS-->
+<script type="text/javascript" src="js/production/ajax.min.js"></script>
+<script type="text/javascript" src="js/production/animation.min.js"></script>
+<script type="text/javascript" src="js/production/generateNewspost.min.js"></script>
 
+</body>
 </html>
