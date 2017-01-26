@@ -41,11 +41,19 @@ The technologies used in this course are:
 ### Things i could've done better 
 If I could've found a more suitable API for finding artist related news I would have used that instead of the Webhose API.
 Eventhough it has many filtersettings i couldn't get it to filter enough to just find artist news.
+
 I also could've handled the response from the Webhose API better so that if you just searched for something totally unrelated,
-that wouldn't be printed to the screen.
+an error message would be displayed to the user.
+
+I could've simplified the generateNewsPost.js file and split up the code into methods and properties, for readability and to be more maintainable.
 ****
 ### The good
+
 I've used promise objects for the responses so that if the request fails, error handling is a lot easier.
+
+I've minified the javascript and css files in order for the page to load faster
+
+I've tried to split up the code into objects so that the variables and methods don't directly belong to the global window object.
 ****
 [Reach me on linkedin](https://www.linkedin.com/in/christian-fujimaki-ahlsen-77701766?trk=nav_responsive_tab_profile)
 
