@@ -40,7 +40,7 @@ The technologies used in this course are:
 ****
 ### Things i could've done better 
 If I could've found a more suitable API for finding artist related news I would have used that instead of the Webhose API.
-Eventhough it has many filtersettings i couldn't get it to filter enough to just find artist news.
+Eventhough it has many filter settings i couldn't get it to filter enough to just find artist news.
 
 I also could've handled the response from the Webhose API better so that if you just searched for something totally unrelated,
 an error message would be displayed to the user.
