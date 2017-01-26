@@ -49,7 +49,7 @@ I could've simplified the generateNewsPost.js file and split up the code into me
 ****
 ### The good
 
-I've used promise objects for the responses so that if the request fails, error handling is a lot easier.
+I've used promise objects for the responses so that if the Api request fails, error handling is a lot easier.
 
 I've minified the javascript and css files in order for the page to load faster
 
