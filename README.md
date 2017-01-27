@@ -6,6 +6,8 @@
 ### Program: Frontend-Javascript Developer
 ### Course: Webbapplication development
 
+****
+
 ## Purpose and functionality of the finished product
 
 I've made a music news blog where you can search for random news of an artist and then - if you feel like it - listen to a preview
